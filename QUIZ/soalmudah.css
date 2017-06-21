@@ -1,0 +1,89 @@
+<!--
+body {
+	
+	background-image: url("yangini.png");
+
+}
+.container {
+	height: 450px;
+	width: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: rgb(209, 245, 241);
+	padding: 20px;
+	border: 18px solid rgb(20, 118, 215);
+	box-shadow: 0 0 8px 3px #fff;
+}
+.judul {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	color: rgb(255,199,28);
+	font-family: "Denmark";
+}
+.question {
+	padding: 20px;
+	font-size: 22px;
+	background:  rgb(0, 75, 203);
+	margin: 10px 0 10px 0;
+	color: #f6f6f6; 
+}
+.option {
+	width: 475px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: rgba(255, 255, 255, 0.5);
+	margin: 10px 0 10px 10px;
+	color: black;
+	border-radius: 20px;
+}
+.option:hover {
+	background: rgb(18, 224, 226) ;
+	color: blue;
+
+}
+
+.next-btn {
+	border: none;
+	outline: none;
+	background: rgb(218, 62, 0);
+	width: 150px;
+	height: 35px;
+	border-radius: 20px;
+	cursor: pointer;
+	float: right;
+	margin: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: "Caviar Dreams";
+	font-weight: bold;
+}
+.next-btn:hover {
+	background: #08038C;
+	color: #f6f6f6;
+}
+#inicoba {
+	height: 100px;
+	text-align: center;
+	font-size: 75px;
+}
+.result {
+	text-align: center;
+	font-size: 75px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	border: 5px solid black;
+	text-decoration: underline;
+	font-style: italic;
+	font-family: "Bradley Hand ITC"
+}
+.option input:checked .option {
+	background: #08038C;
+	color: #000;
+}
+-->
